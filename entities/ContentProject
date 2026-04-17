@@ -1,0 +1,95 @@
+{
+  "name": "ContentProject",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Project title"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "keyword_input",
+        "intent_classification",
+        "serp_analysis",
+        "keyword_clustering",
+        "prompt_building",
+        "content_generation",
+        "seo_validation",
+        "quality_gate",
+        "published"
+      ],
+      "default": "keyword_input",
+      "description": "Current pipeline stage"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Input keywords"
+    },
+    "intent_data": {
+      "type": "object",
+      "description": "Intent classification results"
+    },
+    "serp_gaps": {
+      "type": "object",
+      "description": "SERP gap analysis results"
+    },
+    "keyword_clusters": {
+      "type": "array",
+      "description": "Clustered keywords"
+    },
+    "generated_prompt": {
+      "type": "string",
+      "description": "Built prompt for AI generation"
+    },
+    "generated_content": {
+      "type": "string",
+      "description": "AI-generated article content"
+    },
+    "seo_score": {
+      "type": "number",
+      "description": "SEO validation score 0-100"
+    },
+    "seo_report": {
+      "type": "object",
+      "description": "Detailed SEO validation report"
+    },
+    "geo_optimization": {
+      "type": "object",
+      "description": "GEO optimization data"
+    },
+    "quality_score": {
+      "type": "number",
+      "description": "Overall quality score 0-100"
+    },
+    "quality_report": {
+      "type": "object",
+      "description": "Quality gate report"
+    },
+    "target_audience": {
+      "type": "string",
+      "description": "Target audience description"
+    },
+    "target_region": {
+      "type": "string",
+      "description": "Target geographic region"
+    },
+    "content_type": {
+      "type": "string",
+      "enum": [
+        "blog_post",
+        "landing_page",
+        "product_page",
+        "guide",
+        "listicle"
+      ],
+      "default": "blog_post"
+    }
+  },
+  "required": [
+    "title"
+  ]
+}
