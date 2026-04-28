@@ -57,26 +57,26 @@ That script processes a sample content brief and prints a JSON summary containin
 ## Screenshots
 
 ### Dashboard
-![Dashboard](images/dashboard.png)
+![Dashboard](images/dashboard.jpeg)
 
 ### Entering keywords
-![keywords](images/keywords.png)
+![keywords](images/keywords.jpeg)
 ### intent classification
-![intent](images/intent.png)
+![intent](images/intent.jpeg)
 ### SERP analysis
-![serp](images/serp.png)
+![serp](images/serp.jpeg)
 ### Prompt builder
-![promptBuilder](images/promptBuilder.png)
+![promptBuilder](images/promptBuilder.jpeg)
 ### generate blog content
-![generate](images/generate.png)
+![generate](images/generate.jpeg)
 ### SEO score validator
-![seo](images/seo.png)
+![seo](images/seo.jpeg)
 
 ### Quality check
-![quality](images/quality.png)
+![quality](images/quality.jpeg)
 
 ### Final Output
-![final](images/final.png)
+![final](images/final.jpeg)
 
 
 
